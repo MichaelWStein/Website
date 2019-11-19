@@ -1,3 +1,5 @@
+/* Settings for Bootstrap, esp. the Navbar */
+
 body {
     background-color: #B0E0E6;
 }
@@ -31,8 +33,6 @@ footer {
 /* Style the button and place it in the upper left corner of the container/image */
 .container-fluid .btn {
     position: absolute;
-    top: 20%;
-    left: 15%;
     transform: translate(-10%, -10%);
     -ms-transform: translate(-10%, -10%);
     background-color: #4b0082;
@@ -43,7 +43,35 @@ footer {
     cursor: pointer;
     border-radius: 5px;
   }
-  
+
+.container-fluid .high {
+  top: 20%;
+  left: 15%;
+}
+.container-fluid .low {
+    bottom: 10%;
+    right: 10%;
+  }
+
+.container-fluid .card {
+    position: absolute;
+    transform: translate(-10%, -10%);
+    -ms-transform: translate(-10%, -10%);
+    background-color: #4b0082;
+    color: white;
+    font-size: 12px;
+    padding: 6px 6px;*/
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+.container-fluid .personal{
+    top: 15%;
+    left: 50%;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -63,4 +91,24 @@ footer {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.col-sm-3 .btn {
+  width:60%;
+  position: relative;
+  left:20px;	
+  background-color: #4b0082;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* For leaflet - set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 98%;
 }
