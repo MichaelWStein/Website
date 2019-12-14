@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>msteinideas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>     
+    <nav class="navbar navbar-expand-lg navbar-dark" style = "background-color: #4B0082;">
+        <a class="navbar-brand" href="http://www.msteinideas.com/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="carbonfootprint.html">Carbon Footprint</a>
+                        <a class="dropdown-item" href="Electmap.html">Electoral Districts w. Information</a>
+                        <a class="dropdown-item" href="https://github.com/users/MichaelWStein/projects/3">CanadaVotes</a>
+                        <a class="dropdown-item" href="DataforGood.html">Volunteer Work: Data for Good</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Small Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://boiling-fortress-64346.herokuapp.com/">Dashboard (on Heroku)</a>
+                        <a class="dropdown-item" href="https://michaelwstein.github.io/JSDOM/index.html">Data Selection (on github)</a>
+                        <a class="dropdown-item" href="https://michaelwstein.github.io/HealthData/index.html">D3 example (on github)</a>
+                        <a class="dropdown-item" href="https://michaelwstein.github.io/TempLong/index.html">Data Display (on github)</a>
+                        <a class="dropdown-item" href="https://github.com/MichaelWStein/MachineLearning">Machine Learning (on github)</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <p></p>
+            <h5>Data for Good</h5>
+            <p>Data for Good is a way for people to contribute to the betterment of society using their expertise in data science 
+                <a href="https://dataforgood.ca/about-us/"><strong>(DataforGood)</strong></a>. Datathons are one way to reach these goals. In a Datathon, 
+                teams work on a problem provided by a client (often an NGO), using data provided by the client and Data for Good. 
+                The time for the Datathon is limited (e.g. a Saturday) and at the end, each team presents their solution to the 
+                participants and the client.</p>
+            <p><strong>My Activities</strong><br />
+                <bolder>Preparation for Datathon - Data Cleaning:</bolder><br />
+                • Analyzing data sets.<br />       
+                • Ensuring that formatting is correct and consistent.<br />
+                • Drop rows and columns that contain no information or contain superfluous information.<br />
+                • Gather additional information as discussed by the team.<br />
+                • Data cleaning is mostly done with Python (Pandas), additional information is gathered with online research and web scraping.<br />       
+                <bolder>Participation in Datathons:</bolder><br />
+                • Review of available data and the client’s objectives with the team.<br />
+                • Review available data sets and select data for further analysis.<br />
+                • Analyze data and put a presentation together.<br />
+                • Present final results to clients and the other teams.<br />
+                • The data is usually provided as *.csv file.<br />
+                • For data selection and analysis Python and/or Tableau are used.</p>             
+        </div>
+        <div class="col-sm-9">
+            <p></p> 
+            <h5>Example</h5>  
+            <p>Identify opportunities for maximizing participation and fundraising for an annual walk, the main fund raiser for<a href="https://kidshelpphone.ca"><strong>Kids Help Phone</strong></a>.</p>
+            <p>Large data sets for participants and donors were analyzed with and transformed with Python. Further analysis and visualization was then done with Tableau.
+                 The presentation included:<br />
+                • Geographic distribution of participants and donors.<br />
+                • Identification of ‘virtual walkers’ (walkers that do not join an official walk, but participate in the campaign and do a walk on their own 
+                or with friends) as an important participant group.<br />
+                • Identification of a data-collection problem – donations to walking teams are not tracked correctly, which makes it impossible to determine the 
+                amounts of money raised by walkers participating in these teams.<br />
+                • Identification of repeating donors as especially valuable donor groups (donors contributing every year tend to increase their donations each year).</p>
+            <p>Several small programs were written in Python (using Jupyter notebook). This was done for several reasons: <br />
+                • Due to the large size of the data sets and the time required for some operations, re-running a notebook (which is required for a variety of reasons) 
+                needed to be minimized.<br />
+                • Other team members could already start working on the prepared files while further analysis was done.<br />
+                • The tight schedule did not leave any time for code optimization.<br /></p>
+            <img src ="assets/images/ProgramData.png" alt="picture" style="padding: 12px;"/>            
+            <p>Relationship between the Code (blue - each circle is one notebook) and Data (green - each circle is one *.csv file) for the project.</p> 
+            <p>All data as well as the solutions developed during the Datathons are proprietary. Therefore the code and a detailed presentation of results are not available.</p>
+        </div>
+    </div>    
+</div>
+        
+<footer>
+    <p>For more information or projects please contact: michael@msteinideas.com</p>
+</footer>    
+</body>
+</html>
+
